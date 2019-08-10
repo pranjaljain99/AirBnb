@@ -21,4 +21,14 @@ In this notebook, I tried to utilize the features like the neighbourhood, the ta
 #### 3. Predicting similar listings using knn.ipynb 
 Here I tried to use the summary feature to use text timing using TfidfTransformer and using K nearest neighbours. Although a better analysis could have been done if review summary was availible at customer level instead.
 
-4. modelling.ipynb
+#### 4. modelling.ipynb
+Only selective features were extracted from the original listings to form a transformed dataframe. now this was splitted into 80-20 Train test ratio. Now different machine learning algorithms are applied like 
+Linear regression, 
+Logistic Regression, 
+Ridge Regression,
+SVM,
+Decision tree,
+Random Forest.
+
+Now a confusion matrix was made and the error was calculated which demonstrated SVM with maximum accuracy. 
+
